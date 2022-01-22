@@ -7,7 +7,7 @@ use App\Entity\Operation\Multiply;
 
 class MultiplyTest extends TestCase
 {
-    public function testMultiply(): void
+    public function testMultiply()
     {
         $add = new Multiply();
         $result = $add->calculate(4, 2);

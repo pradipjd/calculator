@@ -7,7 +7,7 @@ use App\Entity\Operation\Add;
 
 class AddTest extends TestCase
 {
-    public function testAdd(): void
+    public function testAdd()
     {
         $add = new Add();
         $result = $add->calculate(15, 25);

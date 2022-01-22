@@ -7,7 +7,7 @@ use App\Entity\Operation\Divide;
 
 class DivideTest extends TestCase
 {
-    public function testDivide(): void
+    public function testDivide()
     {
         $add = new Divide();
         $result = $add->calculate(4, 2);

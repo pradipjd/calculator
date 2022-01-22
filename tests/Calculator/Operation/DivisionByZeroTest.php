@@ -7,7 +7,7 @@ use App\Entity\Operation\Divide;
 
 class DivisionByZeroTest extends TestCase
 {
-    public function testDivisionByZero(): void
+    public function testDivisionByZero()
     {
         $add = new Divide();
         $result = $add->calculate(4, 0);

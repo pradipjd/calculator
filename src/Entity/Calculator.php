@@ -76,8 +76,7 @@ class Calculator
 
     public function performCalculation()
     {
-        switch ($this->getOperand())
-        {
+        switch ($this->getOperand()) {
             case "add":
                 $operation = new Add();
                 break;
