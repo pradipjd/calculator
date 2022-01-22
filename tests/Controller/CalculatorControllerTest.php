@@ -6,7 +6,7 @@ use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 
 class CalculatorControllerTest extends WebTestCase
 {
-    public function testCalculator(): void
+    public function testCalculator()
     {
         $client = static::createClient();
         $crawler = $client->request('GET', '/calculator');

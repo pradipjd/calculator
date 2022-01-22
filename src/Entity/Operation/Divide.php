@@ -14,7 +14,7 @@ class Divide implements OperationInterface
      */
     public function calculate($firstNumber, $secondNumber)
     {
-        if(0==$secondNumber) {
+        if (0==$secondNumber) {
             return self::$error;
         }
 

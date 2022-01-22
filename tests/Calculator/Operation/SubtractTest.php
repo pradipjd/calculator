@@ -7,7 +7,7 @@ use App\Entity\Operation\Subtract;
 
 class SubtractTest extends TestCase
 {
-    public function testSubtract(): void
+    public function testSubtract()
     {
         $add = new Subtract();
         $result = $add->calculate(40, 20);
